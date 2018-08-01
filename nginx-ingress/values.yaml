@@ -163,7 +163,7 @@ controller:
     ## List of IP addresses at which the controller services are available
     ## Ref: https://kubernetes.io/docs/user-guide/services/#external-ips
     ##
-    externalIPs: [|10.10.0.10"]
+    externalIPs: ["10.10.0.10"]
 
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
